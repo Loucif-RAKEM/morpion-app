@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.flex_container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_text {
+  text-align: center;
+}
+
+.blue_text {
+  color: blue;
+}
+
+.instructions {
+  margin-top: 50px;
+}
+
+.instructions ul {
+  text-align: left;
+  font-weight: 100;
+  font-size: smaller;
+}
+
+.home_buttons {
+  margin-top: 50px;
+}
+
+#playButton {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
