@@ -1,5 +1,6 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
 }
 
 .flex_container {
@@ -24,8 +25,8 @@ body {
 
 .instructions ul {
   text-align: left;
-  font-weight: 100;
-  font-size: smaller;
+  /* font-weight: 100; */
+  font-size: 14px;
 }
 
 .home_buttons {

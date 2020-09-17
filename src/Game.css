@@ -1,0 +1,20 @@
+.game {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.blue_text {
+  color: blue;
+}
+
+.game h2 {
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.game h2 span {
+  margin-left: 15px;
+}
