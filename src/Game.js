@@ -31,6 +31,9 @@ function Game() {
     updateCurrentPlayer();
   }, [squares]);
 
+  useEffect(() => {
+    if (!gameEnd) setCurrentPlayer("x");
+  }, [gameEnd]);
   const resetGame = () => {
     setCurrentPlayer("x");
     setSquares([
