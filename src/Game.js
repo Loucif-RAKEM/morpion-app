@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import "./Game.css";
 import Table from "./Table";
 import GameContext from "./GameContext";
+import TransitionsModal from "./TransitionsModal";
 
 function Game() {
   const [squares, setSquares] = useState([
@@ -29,7 +30,9 @@ function Game() {
     evaluateGame();
     updateCurrentPlayer();
   }, [squares]);
-  const resetTable = () => {
+
+  const resetGame = () => {
+    setCurrentPlayer("x");
     setSquares([
       { id: 0, value: "" },
       { id: 1, value: "" },
@@ -145,16 +148,11 @@ function Game() {
     <GameContext.Provider value={contextValue}>
       <div className="game">
         {gameEnd ? (
-          winner === "xo" ? (
-            <h2>Game ended with a draw !</h2>
-          ) : (
-            <h2>
-              Winner is :{" "}
-              <span className={winner === "o" ? "blue_text" : ""}>
-                {winner.toUpperCase()}
-              </span>
-            </h2>
-          )
+          <TransitionsModal
+            winner={winner}
+            resetGame={resetGame}
+            setGameEnd={setGameEnd}
+          />
         ) : (
           <h2>
             Current player :
