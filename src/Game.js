@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./Game.css";
 import Table from "./Table";
 import GameContext from "./GameContext";
@@ -19,6 +19,16 @@ function Game() {
   const [gameEnd, setGameEnd] = useState(false);
   const [winner, setWinner] = useState("");
 
+  const isFirstRun = useRef(true);
+  useEffect(() => {
+    // pass the first render
+    if (isFirstRun.current) {
+      isFirstRun.current = false;
+      return;
+    }
+    evaluateGame();
+    updateCurrentPlayer();
+  }, [squares]);
   const resetTable = () => {
     setSquares([
       { id: 0, value: "" },
@@ -32,20 +42,12 @@ function Game() {
       { id: 8, value: "" },
     ]);
   };
-  // ! array update is late by one step
-  // TODO correct this bug
+
   const updateTable = (id, newValue) => {
     const nextSquares = [...squares];
     const index = nextSquares.findIndex((square) => square.id === id);
-    nextSquares[index] = { id: id, value: newValue };
-    console.log(nextSquares);
+    nextSquares.splice(index, 1, { id: id, value: newValue });
     setSquares(nextSquares);
-
-    console.log("---------------");
-    console.log(squares);
-    // console.log(squares === updatedSquares);
-    evaluateGame();
-    updateCurrentPlayer();
   };
 
   const evaluateGame = () => {
