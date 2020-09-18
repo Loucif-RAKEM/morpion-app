@@ -2,5 +2,6 @@ import React from "react";
 
 export default React.createContext({
   currentPlayer: "x",
-  updateCurrentPlayer: () => {},
+  updateTable: (id, newValue) => {},
+  gameEnd: false,
 });
