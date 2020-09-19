@@ -18,8 +18,8 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .footer {
-    position: absolute;
-    bottom: 5px;
+    position: relative;
+    top: 150px;
     width: 99vw;
     display: flex;
     flex-direction: column-reverse;
