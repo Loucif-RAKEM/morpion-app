@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/morpion-app/static/css/main.b577df1b.chunk.css",
+    "main.css": "/morpion-app/static/css/main.27f9a736.chunk.css",
     "main.js": "/morpion-app/static/js/main.50e261a7.chunk.js",
     "main.js.map": "/morpion-app/static/js/main.50e261a7.chunk.js.map",
     "runtime-main.js": "/morpion-app/static/js/runtime-main.60102160.js",
@@ -9,10 +9,10 @@
     "static/js/2.b9b517ab.chunk.js": "/morpion-app/static/js/2.b9b517ab.chunk.js",
     "static/js/2.b9b517ab.chunk.js.map": "/morpion-app/static/js/2.b9b517ab.chunk.js.map",
     "index.html": "/morpion-app/index.html",
-    "precache-manifest.91a111a9223265f54cde73bc062eb70d.js": "/morpion-app/precache-manifest.91a111a9223265f54cde73bc062eb70d.js",
+    "precache-manifest.340febbb15e505f649e98e296524b41c.js": "/morpion-app/precache-manifest.340febbb15e505f649e98e296524b41c.js",
     "service-worker.js": "/morpion-app/service-worker.js",
     "static/css/2.8354575f.chunk.css.map": "/morpion-app/static/css/2.8354575f.chunk.css.map",
-    "static/css/main.b577df1b.chunk.css.map": "/morpion-app/static/css/main.b577df1b.chunk.css.map",
+    "static/css/main.27f9a736.chunk.css.map": "/morpion-app/static/css/main.27f9a736.chunk.css.map",
     "static/js/2.b9b517ab.chunk.js.LICENSE.txt": "/morpion-app/static/js/2.b9b517ab.chunk.js.LICENSE.txt",
     "static/media/index.css": "/morpion-app/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.60102160.js",
     "static/css/2.8354575f.chunk.css",
     "static/js/2.b9b517ab.chunk.js",
-    "static/css/main.b577df1b.chunk.css",
+    "static/css/main.27f9a736.chunk.css",
     "static/js/main.50e261a7.chunk.js"
   ]
 }
