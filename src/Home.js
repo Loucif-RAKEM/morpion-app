@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./Home.css";
 import Button from "@material-ui/core/Button";
 import Game from "./Game";
+import HomeContext from "./HomeContext";
+import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
+import Footer from "./Footer";
 
 function Home() {
   const [showInstr, setShowInstr] = useState(false);
@@ -11,8 +14,13 @@ function Home() {
 
   const startGame = () => setShowGame(true);
 
+  const contextValue = { setShowGame: setShowGame };
+
   return showGame ? (
-    <Game />
+    <HomeContext.Provider value={contextValue}>
+      <Game />
+      <Footer />
+    </HomeContext.Provider>
   ) : (
     <div className="flex_container">
       <div className="home_text">
@@ -22,7 +30,12 @@ function Home() {
         </h1>
         <p>
           Press the{" "}
-          <Button variant="contained" size="small" color="primary">
+          <Button
+            variant="contained"
+            size="small"
+            color="primary"
+            endIcon={<SportsEsportsIcon />}
+          >
             Play
           </Button>{" "}
           button to start the game. Or simply click the left button for
@@ -55,6 +68,7 @@ function Home() {
           variant="contained"
           color="default"
           onClick={toggleInstructions}
+          size="large"
         >
           {showInstr ? "hide instructions" : "Instructions"}
         </Button>
@@ -63,11 +77,14 @@ function Home() {
           variant="contained"
           color="primary"
           id="playButton"
+          endIcon={<SportsEsportsIcon />}
           onClick={startGame}
+          size="large"
         >
           Play
         </Button>
       </div>
+      <Footer />
     </div>
   );
 }

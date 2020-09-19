@@ -1,6 +1,6 @@
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
 }
 
 .flex_container {
@@ -11,8 +11,20 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-size: 2.4rem;
+  font-family: "Shadows Into Light", "Roboto", sans-serif;
+}
+
+h1 span:hover {
+  font-size: 3rem;
+  transition-timing-function: ease-out;
+  transition: 0.2s;
+}
+
 .home_text {
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .blue_text {
@@ -34,7 +46,7 @@ body {
 }
 
 #playButton {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-left: 30px;
 }

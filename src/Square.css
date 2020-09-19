@@ -12,6 +12,10 @@
   font-weight: 100;
 }
 
+.square:hover {
+  background-color: whitesmoke;
+}
+
 .blue_text {
   color: blue;
 }

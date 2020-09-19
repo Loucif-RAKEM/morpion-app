@@ -28,7 +28,7 @@ function Game() {
       return;
     }
     evaluateGame();
-    updateCurrentPlayer();
+    // eslint-disable-next-line
   }, [squares]);
 
   useEffect(() => {
@@ -135,6 +135,8 @@ function Game() {
       setWinner("xo");
       setGameEnd(true);
     }
+    // update Current Player
+    updateCurrentPlayer();
   };
   const updateCurrentPlayer = () => {
     if (currentPlayer === "x") setCurrentPlayer("o");

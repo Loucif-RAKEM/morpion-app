@@ -59,7 +59,7 @@ function TransitionsModal({ winner, resetGame, setGameEnd }) {
         <Fade in={open}>
           <div className={classes.paper}>
             {winner === "xo" ? (
-              <h2>Game ended with a draw !</h2>
+              <h2>Game ended in a draw !</h2>
             ) : (
               <h2>
                 Winner is :{" "}
@@ -81,7 +81,10 @@ function TransitionsModal({ winner, resetGame, setGameEnd }) {
                 color="secondary"
                 variant="outlined"
                 size="small"
-                onClick={setShowGame(false)}
+                onClick={() => {
+                  setShowGame(false);
+                  handleClose();
+                }}
               >
                 Go to Home page
               </Button>
