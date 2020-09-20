@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/morpion-app/precache-manifest.340febbb15e505f649e98e296524b41c.js"
+  "/morpion-app/precache-manifest.c70984c2a2eacc4c4baff5f74240631a.js"
 );
 
 self.addEventListener('message', (event) => {
