@@ -16,10 +16,12 @@ h1 {
   font-family: "Shadows Into Light", "Roboto", sans-serif;
 }
 
+h1 span {
+  transition: font-size 450ms;
+}
+
 h1 span:hover {
-  font-size: 3rem;
-  transition-timing-function: ease-out;
-  transition: 0.2s;
+  font-size: 3.5rem;
 }
 
 .home_text {
