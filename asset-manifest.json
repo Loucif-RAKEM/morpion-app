@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/morpion-app/static/css/main.d7e34631.chunk.css",
-    "main.js": "/morpion-app/static/js/main.50e261a7.chunk.js",
-    "main.js.map": "/morpion-app/static/js/main.50e261a7.chunk.js.map",
+    "main.css": "/morpion-app/static/css/main.b1e9014e.chunk.css",
+    "main.js": "/morpion-app/static/js/main.22f0358f.chunk.js",
+    "main.js.map": "/morpion-app/static/js/main.22f0358f.chunk.js.map",
     "runtime-main.js": "/morpion-app/static/js/runtime-main.60102160.js",
     "runtime-main.js.map": "/morpion-app/static/js/runtime-main.60102160.js.map",
     "static/css/2.8354575f.chunk.css": "/morpion-app/static/css/2.8354575f.chunk.css",
     "static/js/2.b9b517ab.chunk.js": "/morpion-app/static/js/2.b9b517ab.chunk.js",
     "static/js/2.b9b517ab.chunk.js.map": "/morpion-app/static/js/2.b9b517ab.chunk.js.map",
     "index.html": "/morpion-app/index.html",
-    "precache-manifest.c70984c2a2eacc4c4baff5f74240631a.js": "/morpion-app/precache-manifest.c70984c2a2eacc4c4baff5f74240631a.js",
+    "precache-manifest.58a7312ef19903a5b9ff8db3853ac1cb.js": "/morpion-app/precache-manifest.58a7312ef19903a5b9ff8db3853ac1cb.js",
     "service-worker.js": "/morpion-app/service-worker.js",
     "static/css/2.8354575f.chunk.css.map": "/morpion-app/static/css/2.8354575f.chunk.css.map",
-    "static/css/main.d7e34631.chunk.css.map": "/morpion-app/static/css/main.d7e34631.chunk.css.map",
+    "static/css/main.b1e9014e.chunk.css.map": "/morpion-app/static/css/main.b1e9014e.chunk.css.map",
     "static/js/2.b9b517ab.chunk.js.LICENSE.txt": "/morpion-app/static/js/2.b9b517ab.chunk.js.LICENSE.txt",
     "static/media/index.css": "/morpion-app/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.60102160.js",
     "static/css/2.8354575f.chunk.css",
     "static/js/2.b9b517ab.chunk.js",
-    "static/css/main.d7e34631.chunk.css",
-    "static/js/main.50e261a7.chunk.js"
+    "static/css/main.b1e9014e.chunk.css",
+    "static/js/main.22f0358f.chunk.js"
   ]
 }
