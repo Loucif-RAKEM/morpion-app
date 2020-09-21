@@ -78,8 +78,8 @@ function TransitionsModal({ winner, resetGame, setGameEnd }) {
               id="transition-modal-description"
             >
               <Button
-                color="secondary"
-                variant="outlined"
+                color="default"
+                variant="contained"
                 size="small"
                 onClick={() => {
                   setShowGame(false);

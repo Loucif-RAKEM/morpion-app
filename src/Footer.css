@@ -1,9 +1,11 @@
 .footer {
   position: absolute;
   bottom: 10px;
-  width: 99vw;
+  width: 99%;
+  overflow-x: hidden;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .name {
@@ -16,10 +18,20 @@
   margin-left: 5px;
 }
 
+.footer_icon {
+  color: #111111ba;
+  transition: transform 450ms;
+  padding: 5px;
+}
+
+.footer_icon:hover {
+  transform: scale(1.08);
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .footer {
     position: relative;
-    top: 150px;
+    top: 100px;
     width: 99vw;
     display: flex;
     flex-direction: column-reverse;

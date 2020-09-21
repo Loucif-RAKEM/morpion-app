@@ -12,13 +12,13 @@ function Footer() {
       </span>
       <div className="buttons">
         <a href="https://www.linkedin.com/in/lrakem/">
-          <LinkedInIcon fontSize="large" color="primary" />
+          <LinkedInIcon className="footer_icon" fontSize="large" />
         </a>
         <a href="https://github.com/Loucif-RAKEM/morpion-app">
-          <GitHubIcon fontSize="large" color="action" />
+          <GitHubIcon className="footer_icon" fontSize="large" />
         </a>
         <a href="mailto:rakem.loucif@gmail.com">
-          <MailIcon fontSize="large" color="secondary" />
+          <MailIcon className="footer_icon" fontSize="large" />
         </a>
       </div>
     </div>

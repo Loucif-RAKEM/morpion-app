@@ -43,7 +43,7 @@ function Home() {
         </p>
 
         {showInstr ? (
-          <div className="instructions">
+          <div className="instructions active">
             <ul>
               <li>Play occurs on a 3 by 3 grid of 9 empty squares.</li>
               <li>
