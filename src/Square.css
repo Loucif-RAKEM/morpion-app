@@ -6,10 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 3rem;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-family: "Indie Flower", "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .square:hover {

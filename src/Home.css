@@ -1,6 +1,5 @@
 body {
-  font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
+  font-family: "Indie Flower", "Roboto", sans-serif;
 }
 
 .flex_container {
@@ -13,7 +12,6 @@ body {
 
 h1 {
   font-size: 2.4rem;
-  font-family: "Shadows Into Light", "Roboto", sans-serif;
 }
 
 h1 span {

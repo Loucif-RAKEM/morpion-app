@@ -31,6 +31,7 @@ function Home() {
         <p>
           Press the{" "}
           <Button
+        
             variant="contained"
             size="small"
             color="primary"
@@ -65,6 +66,7 @@ function Home() {
 
       <div className="home_buttons">
         <Button
+      
           variant="contained"
           color="default"
           onClick={toggleInstructions}
