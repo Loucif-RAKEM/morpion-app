@@ -25,7 +25,7 @@ function Footer() {
         </a>
         <a href="https://icons8.com">
           <img
-            src="/icons8-icons8-48.png"
+            src={process.env.PUBLIC_URL + "/icons8-icons8-48.png"}
             alt="icons8 logo"
             style={{ height: "30px", width: "30px" }}
           />

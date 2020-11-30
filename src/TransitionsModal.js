@@ -59,7 +59,7 @@ function TransitionsModal({ winner, resetGame, setGameEnd }) {
         <Fade in={open}>
           <div className={classes.paper}>
             <img
-              src="/icons8-prize-money-48.png"
+              src={process.env.PUBLIC_URL + "/icons8-prize-money-48.png"}
               alt="Prize logo"
             />
             {winner === "xo" ? (

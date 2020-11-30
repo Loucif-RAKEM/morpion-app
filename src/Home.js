@@ -23,7 +23,7 @@ function Home() {
       <div className="home_text">
         <img
           className="logo animate__animated animate__flipInX"
-          src="/tic-tac-toe-logo.png"
+          src={process.env.PUBLIC_URL + "/tic-tac-toe-logo.png"}
           alt="Tic Tac Toe Logo"
         />
         <p>
