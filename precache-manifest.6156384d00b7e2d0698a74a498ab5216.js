@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e177d4012b0d2a4680632c7c9b7b5f2",
+    "revision": "79ac3bb2b9ffdce975778936fd15be3a",
     "url": "/morpion-app/index.html"
   },
   {
-    "revision": "88c49cc049de05b02cea",
+    "revision": "3d6f61a803318edacde1",
     "url": "/morpion-app/static/css/2.8354575f.chunk.css"
   },
   {
-    "revision": "21f1bef897e3c2b69183",
-    "url": "/morpion-app/static/css/main.b1e9014e.chunk.css"
+    "revision": "af6f3012af43a85f84cb",
+    "url": "/morpion-app/static/css/main.96545068.chunk.css"
   },
   {
-    "revision": "88c49cc049de05b02cea",
-    "url": "/morpion-app/static/js/2.b9b517ab.chunk.js"
+    "revision": "3d6f61a803318edacde1",
+    "url": "/morpion-app/static/js/2.06e2db51.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/morpion-app/static/js/2.b9b517ab.chunk.js.LICENSE.txt"
+    "url": "/morpion-app/static/js/2.06e2db51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21f1bef897e3c2b69183",
-    "url": "/morpion-app/static/js/main.22f0358f.chunk.js"
+    "revision": "af6f3012af43a85f84cb",
+    "url": "/morpion-app/static/js/main.19718c43.chunk.js"
   },
   {
     "revision": "cc8e0fce530c31922352",

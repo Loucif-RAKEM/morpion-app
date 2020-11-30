@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/morpion-app/static/css/main.b1e9014e.chunk.css",
-    "main.js": "/morpion-app/static/js/main.22f0358f.chunk.js",
-    "main.js.map": "/morpion-app/static/js/main.22f0358f.chunk.js.map",
+    "main.css": "/morpion-app/static/css/main.96545068.chunk.css",
+    "main.js": "/morpion-app/static/js/main.19718c43.chunk.js",
+    "main.js.map": "/morpion-app/static/js/main.19718c43.chunk.js.map",
     "runtime-main.js": "/morpion-app/static/js/runtime-main.60102160.js",
     "runtime-main.js.map": "/morpion-app/static/js/runtime-main.60102160.js.map",
     "static/css/2.8354575f.chunk.css": "/morpion-app/static/css/2.8354575f.chunk.css",
-    "static/js/2.b9b517ab.chunk.js": "/morpion-app/static/js/2.b9b517ab.chunk.js",
-    "static/js/2.b9b517ab.chunk.js.map": "/morpion-app/static/js/2.b9b517ab.chunk.js.map",
+    "static/js/2.06e2db51.chunk.js": "/morpion-app/static/js/2.06e2db51.chunk.js",
+    "static/js/2.06e2db51.chunk.js.map": "/morpion-app/static/js/2.06e2db51.chunk.js.map",
     "index.html": "/morpion-app/index.html",
-    "precache-manifest.58a7312ef19903a5b9ff8db3853ac1cb.js": "/morpion-app/precache-manifest.58a7312ef19903a5b9ff8db3853ac1cb.js",
+    "precache-manifest.6156384d00b7e2d0698a74a498ab5216.js": "/morpion-app/precache-manifest.6156384d00b7e2d0698a74a498ab5216.js",
     "service-worker.js": "/morpion-app/service-worker.js",
     "static/css/2.8354575f.chunk.css.map": "/morpion-app/static/css/2.8354575f.chunk.css.map",
-    "static/css/main.b1e9014e.chunk.css.map": "/morpion-app/static/css/main.b1e9014e.chunk.css.map",
-    "static/js/2.b9b517ab.chunk.js.LICENSE.txt": "/morpion-app/static/js/2.b9b517ab.chunk.js.LICENSE.txt",
+    "static/css/main.96545068.chunk.css.map": "/morpion-app/static/css/main.96545068.chunk.css.map",
+    "static/js/2.06e2db51.chunk.js.LICENSE.txt": "/morpion-app/static/js/2.06e2db51.chunk.js.LICENSE.txt",
     "static/media/index.css": "/morpion-app/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.60102160.js",
     "static/css/2.8354575f.chunk.css",
-    "static/js/2.b9b517ab.chunk.js",
-    "static/css/main.b1e9014e.chunk.css",
-    "static/js/main.22f0358f.chunk.js"
+    "static/js/2.06e2db51.chunk.js",
+    "static/css/main.96545068.chunk.css",
+    "static/js/main.19718c43.chunk.js"
   ]
 }
