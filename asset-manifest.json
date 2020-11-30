@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/morpion-app/static/css/main.96545068.chunk.css",
-    "main.js": "/morpion-app/static/js/main.19718c43.chunk.js",
-    "main.js.map": "/morpion-app/static/js/main.19718c43.chunk.js.map",
+    "main.js": "/morpion-app/static/js/main.aaaf9950.chunk.js",
+    "main.js.map": "/morpion-app/static/js/main.aaaf9950.chunk.js.map",
     "runtime-main.js": "/morpion-app/static/js/runtime-main.60102160.js",
     "runtime-main.js.map": "/morpion-app/static/js/runtime-main.60102160.js.map",
     "static/css/2.8354575f.chunk.css": "/morpion-app/static/css/2.8354575f.chunk.css",
     "static/js/2.06e2db51.chunk.js": "/morpion-app/static/js/2.06e2db51.chunk.js",
     "static/js/2.06e2db51.chunk.js.map": "/morpion-app/static/js/2.06e2db51.chunk.js.map",
     "index.html": "/morpion-app/index.html",
-    "precache-manifest.ae99c6e575ff3fcc769220d37f0d2173.js": "/morpion-app/precache-manifest.ae99c6e575ff3fcc769220d37f0d2173.js",
+    "precache-manifest.fae94f67af64dfa0d6bf6eebadc6adb8.js": "/morpion-app/precache-manifest.fae94f67af64dfa0d6bf6eebadc6adb8.js",
     "service-worker.js": "/morpion-app/service-worker.js",
     "static/css/2.8354575f.chunk.css.map": "/morpion-app/static/css/2.8354575f.chunk.css.map",
     "static/css/main.96545068.chunk.css.map": "/morpion-app/static/css/main.96545068.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.8354575f.chunk.css",
     "static/js/2.06e2db51.chunk.js",
     "static/css/main.96545068.chunk.css",
-    "static/js/main.19718c43.chunk.js"
+    "static/js/main.aaaf9950.chunk.js"
   ]
 }

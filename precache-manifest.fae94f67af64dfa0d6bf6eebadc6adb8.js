@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b92a8b76f5e6af4d00eb86b9fd56bf3",
+    "revision": "31411648267dfa58c7679ad0094ea7ec",
     "url": "/morpion-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/morpion-app/static/css/2.8354575f.chunk.css"
   },
   {
-    "revision": "af6f3012af43a85f84cb",
+    "revision": "d8411f010cde6934a98d",
     "url": "/morpion-app/static/css/main.96545068.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/morpion-app/static/js/2.06e2db51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af6f3012af43a85f84cb",
-    "url": "/morpion-app/static/js/main.19718c43.chunk.js"
+    "revision": "d8411f010cde6934a98d",
+    "url": "/morpion-app/static/js/main.aaaf9950.chunk.js"
   },
   {
     "revision": "cc8e0fce530c31922352",
