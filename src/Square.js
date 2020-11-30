@@ -13,7 +13,7 @@ function Square({ squareId, squareContent }) {
 
   return (
     <div
-      className={"square" + (squareContent === "o" ? " blue_text" : "")}
+      className={"square" + (squareContent === "o" ? " green_text" : "")}
       onClick={handleClick}
     >
       {squareContent}

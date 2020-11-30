@@ -5,11 +5,11 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
-  transition: transform 450ms;
+  transition: transform 450ms ease-in-out;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .table {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
 }

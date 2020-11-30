@@ -7,10 +7,7 @@ import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
 import Footer from "./Footer";
 
 function Home() {
-  const [showInstr, setShowInstr] = useState(false);
   const [showGame, setShowGame] = useState(false);
-
-  const toggleInstructions = () => setShowInstr(!showInstr);
 
   const startGame = () => setShowGame(true);
 
@@ -24,66 +21,56 @@ function Home() {
   ) : (
     <div className="flex_container">
       <div className="home_text">
-        <h1 className="title">
-          <span>Tic</span> <span className="blue_text">Tac </span>
-          <span>Toe</span>
-        </h1>
+        <img
+          className="logo animate__animated animate__flipInX"
+          src="/tic-tac-toe-logo.png"
+          alt="Tic Tac Toe Logo"
+        />
         <p>
           Press the{" "}
           <Button
-        
             variant="contained"
             size="small"
-            color="primary"
+            style={{
+              backgroundColor: "#53af50",
+              color: "white",
+              fontSize: "0.7rem",
+            }}
             endIcon={<SportsEsportsIcon />}
           >
-            Play
+            start game
           </Button>{" "}
-          button to start the game. Or simply click the left button for
-          instructions.
+          button to start the game. You may also check out the game's
+          instructions below.
         </p>
 
-        {showInstr ? (
-          <div className="instructions active">
-            <ul>
-              <li>Play occurs on a 3 by 3 grid of 9 empty squares.</li>
-              <li>
-                Two players alternate marking empty squares, the first player
-                marking Xs and the second player marking Os.
-              </li>
-              <li>
-                If one player places three of the same marks in a row, that
-                player wins.
-              </li>
-              <li>
-                If the spaces are all filled and there is no winner, the game
-                ends in a draw.
-              </li>
-            </ul>
-          </div>
-        ) : null}
+        <div className="instructions">
+          <ul>
+            <li>Play occurs on a 3 by 3 grid of 9 empty squares.</li>
+            <li>
+              Two players alternate marking empty squares, the first player
+              marking Xs and the second player marking Os.
+            </li>
+            <li>
+              If one player places three of the same marks in a row, that player
+              wins.
+            </li>
+            <li>
+              If the spaces are all filled and there is no winner, the game ends
+              in a draw.
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="home_buttons">
         <Button
-      
           variant="contained"
-          color="default"
-          onClick={toggleInstructions}
-          size="large"
-        >
-          {showInstr ? "hide instructions" : "Instructions"}
-        </Button>
-
-        <Button
-          variant="contained"
-          color="primary"
           id="playButton"
           endIcon={<SportsEsportsIcon />}
           onClick={startGame}
-          size="large"
         >
-          Play
+          start game
         </Button>
       </div>
       <Footer />

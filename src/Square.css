@@ -6,16 +6,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.6rem;
   text-transform: uppercase;
-  font-family: "Indie Flower", "Roboto", sans-serif;
-  font-weight: 500;
 }
 
 .square:hover {
   background-color: whitesmoke;
 }
 
-.blue_text {
-  color: blue;
+.green_text {
+  color: #53af50;
 }

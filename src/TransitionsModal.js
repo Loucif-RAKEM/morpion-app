@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     backgroundColor: theme.palette.background.paper,
-    border: "2px solid #000",
     boxShadow: theme.shadows[5],
+    border: "2px solid white",
     padding: theme.spacing(2, 4, 3),
     width: "400px",
     textAlign: "center",
@@ -58,12 +58,16 @@ function TransitionsModal({ winner, resetGame, setGameEnd }) {
       >
         <Fade in={open}>
           <div className={classes.paper}>
+            <img
+              src="/icons8-prize-money-48.png"
+              alt="Prize logo"
+            />
             {winner === "xo" ? (
               <h2>Game ended in a draw !</h2>
             ) : (
               <h2>
-                Winner is :{" "}
-                <span className={winner === "o" ? "blue_text" : ""}>
+                Winner is ...{" "}
+                <span className={winner === "o" ? "green_text" : ""}>
                   {winner.toUpperCase()}
                 </span>
               </h2>
@@ -73,28 +77,28 @@ function TransitionsModal({ winner, resetGame, setGameEnd }) {
               style={{
                 display: "flex",
                 justifyContent: "space-around",
-                marginTop: "15px",
+                marginTop: "50px",
               }}
               id="transition-modal-description"
             >
               <Button
-                color="default"
                 variant="contained"
                 size="small"
+                style={{ backgroundColor: "#263238", color: "white" }}
                 onClick={() => {
                   setShowGame(false);
                   handleClose();
                 }}
               >
-                Go to Home page
+                Go Back to Home
               </Button>
               <Button
                 variant="contained"
-                color="primary"
                 size="small"
+                style={{ backgroundColor: "#53af50", color: "white" }}
                 onClick={handleClose}
               >
-                Restart
+                Restart Game
               </Button>
             </div>
           </div>

@@ -1,43 +1,40 @@
+* {
+  transition: all 350ms ease-in-out !important;
+}
 body {
-  font-family: "Indie Flower", "Roboto", sans-serif;
+  font-family: "Play", "Indie Flower", "Roboto", sans-serif;
+  margin: 0;
 }
 
+.logo {
+  width: 120px;
+  height: auto;
+}
+.home_text {
+  text-align: center;
+  font-size: 1.22rem;
+}
+
+.home_text p {
+  margin-top: 40px;
+}
 .flex_container {
-  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-  font-size: 2.4rem;
-}
-
-h1 span {
-  transition: font-size 450ms;
-}
-
-h1 span:hover {
-  font-size: 3.5rem;
-}
-
-.home_text {
-  text-align: center;
-  font-size: 1.1rem;
-}
-
-.blue_text {
-  color: blue;
+  height: 85vh;
 }
 
 .instructions {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .instructions ul {
   text-align: left;
-  font-size: 14px;
+  list-style-type: square;
+  font-size: 1rem;
+  line-height: 1.3rem;
 }
 
 .home_buttons {
@@ -45,7 +42,28 @@ h1 span:hover {
 }
 
 #playButton {
-  padding-left: 35px;
-  padding-right: 35px;
-  margin-left: 30px;
+  padding: 10px 20px;
+
+  background-color: #53af50;
+  color: white;
+  font-family: "Play", sans-serif;
 }
+
+
+@media screen and (max-width: 759px) {
+  .home_text {
+    font-size: 1rem;
+  }
+
+  .instructions ul {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    transform: scale(0.85) !important;
+  }
+  .flex_container {
+    height: auto;
+  }
+}
+

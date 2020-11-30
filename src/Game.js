@@ -161,7 +161,7 @@ function Game() {
         ) : (
           <h2>
             Current player :
-            <span className={currentPlayer === "o" ? "blue_text" : ""}>
+            <span className={currentPlayer === "o" ? "green_text" : ""}>
               {currentPlayer.toUpperCase()}
             </span>
           </h2>
