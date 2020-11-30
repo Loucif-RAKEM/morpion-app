@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79ac3bb2b9ffdce975778936fd15be3a",
+    "revision": "1b92a8b76f5e6af4d00eb86b9fd56bf3",
     "url": "/morpion-app/index.html"
   },
   {
